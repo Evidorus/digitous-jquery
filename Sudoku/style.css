@@ -1,0 +1,37 @@
+.sudoku {
+    margin: 50px auto;
+    width: 20%;
+    /* height: 30%; */
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    /* grid-template-rows: repeat(9, 1fr); */
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.baka{
+    text-align: center;
+    border: 0.5px solid black;
+}
+
+.box3{
+    border-right: 3px solid black;
+}
+.box6{
+    border-right: 3px solid black;
+}
+
+.b3, .b12, .b21, .b30, .b39, .b48, .b57, .b66, .b75{
+    border-bottom: 3px solid black;
+}
+
+.b6, .b15, .b24, .b33, .b42, .b51, .b60, .b69, .b78{
+    border-bottom: 3px solid black;
+}
+
+.boutton{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
